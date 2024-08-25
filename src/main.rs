@@ -1,4 +1,5 @@
 pub mod anagram;
+pub mod  gigasecond;
 
 pub fn reverse(input: &str) -> String {
     let mut revString = String::new();

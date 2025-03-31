@@ -1,6 +1,7 @@
 pub mod anagram;
 pub mod  gigasecond;
 pub mod clock;
+pub mod diffie_hellman_key_exchange;
 
 pub fn reverse(input: &str) -> String {
     let mut revString = String::new();

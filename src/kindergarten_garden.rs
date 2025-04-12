@@ -2,6 +2,7 @@
 what is a &str?
 what happens when you convert it to bytes?
 what happens when you convert bytes to chars?
+u8 int range? ans meaning of 8?
 */
 
 pub fn plants(diagram: &str, student: &str) -> Vec<&'static str> {

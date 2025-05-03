@@ -1,3 +1,5 @@
+use bottle_song::recite;
+
 pub mod anagram;
 pub mod  gigasecond;
 pub mod clock;
@@ -5,6 +7,7 @@ pub mod diffie_hellman_key_exchange;
 pub mod series;
 pub mod armstrong;
 pub mod kindergarten_garden;
+pub mod bottle_song;
 
 pub fn reverse(input: &str) -> String {
     let mut revString = String::new();
@@ -20,6 +23,7 @@ pub fn reverse(input: &str) -> String {
 
 fn main() {
     println!("Hello, world!");
+    recite(1, 1);
 }
 
 
